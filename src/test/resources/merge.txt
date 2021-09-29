@@ -1,0 +1,110 @@
+----------------------------
+Command: init
+Project initialized
+----------------------------
+Create file 'master.txt' with content 'aaa'
+----------------------------
+Command: add master.txt
+Add completed successful
+----------------------------
+Command: commit master.txt
+Files committed
+----------------------------
+Command: branch-create dev1
+Branch dev1 created successfully
+You can checkout it with 'checkout dev1'
+----------------------------
+Command: status
+Current branch is 'dev1'
+Everything up to date
+----------------------------
+Create file 'file1.txt' with content 'file1_dev1'
+----------------------------
+Command: add file1.txt
+Add completed successful
+----------------------------
+Command: commit file1.txt
+Files committed
+----------------------------
+Create file 'file2.txt' with content 'file2_dev1'
+----------------------------
+Command: add file2.txt
+Add completed successful
+----------------------------
+Command: commit file2.txt
+Files committed
+----------------------------
+Create file 'file3.txt' with content 'file3_dev1'
+----------------------------
+Command: add file3.txt
+Add completed successful
+----------------------------
+Command: commit file3.txt
+Files committed
+----------------------------
+Create file 'file4.txt' with content 'file4_dev1'
+----------------------------
+Command: add file4.txt
+Add completed successful
+----------------------------
+Command: commit file4.txt
+Files committed
+----------------------------
+Command: checkout master
+Checkout completed successful
+----------------------------
+Command: branch-create dev2
+Branch dev2 created successfully
+You can checkout it with 'checkout dev2'
+----------------------------
+Command: status
+Current branch is 'dev2'
+Everything up to date
+----------------------------
+Create file 'file3.txt' with content 'file3_dev2'
+----------------------------
+Command: add file3.txt
+Add completed successful
+----------------------------
+Command: commit file3.txt
+Files committed
+----------------------------
+Create file 'file4.txt' with content 'file4_dev2'
+----------------------------
+Command: add file4.txt
+Add completed successful
+----------------------------
+Command: commit file4.txt
+Files committed
+----------------------------
+Create file 'file5.txt' with content 'file5_dev2'
+----------------------------
+Command: add file5.txt
+Add completed successful
+----------------------------
+Command: commit file5.txt
+Files committed
+----------------------------
+Command: checkout dev1
+Checkout completed successful
+----------------------------
+Command: merge dev2
+----------------------------
+Command: status
+Current branch is 'dev1'
+Everything up to date
+----------------------------
+Command: content of file file1.txt
+file1_dev1
+----------------------------
+Command: content of file file2.txt
+file2_dev1
+----------------------------
+Command: content of file file3.txt
+file3_dev2
+----------------------------
+Command: content of file file4.txt
+file4_dev2
+----------------------------
+Command: content of file file5.txt
+file5_dev2
